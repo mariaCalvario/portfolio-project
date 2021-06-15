@@ -58,6 +58,11 @@ p {
   color: white;
 }
 
+.navigation-links a,
+.launch-link:hover {
+  color: white;
+}
+
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
@@ -111,5 +116,6 @@ p {
   .launch-mobile {
     display: block;
     text-align: center;
+    margin: 0 20px;
   }
 }
